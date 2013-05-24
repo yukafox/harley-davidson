@@ -1,0 +1,30 @@
+/*Main elements style*/
+.container                      {  margin: 0 auto; }
+h3                              { color: #f18104; text-align: center; }
+body                            { background: url("http://content.wallpapers-room.com/resolutions/1280x800/W/Wallpapers-room_com___Weathered_Leather_by_Stratification_1280x800.png") repeat fixed; font-family: Courier, serif; }
+
+/*Navigation style*/
+
+/*Header style*/
+header                          { height: 201px; margin-top: 20px; width: 100%; }
+header > a                      { background: url("img/Harley-Davidson-Logo2.png") no-repeat center; display: block;
+    height: 201px; margin: 0 auto; width: 269px; text-indent: -9999px; }
+
+/*Carousel style*/
+#myCarousel                     { border: 1px solid #bdb1b1; border-radius: 6px; margin-top: 20px; }
+
+/*Alert style*/
+.btn-danger                     { background: linear-gradient(to bottom, #EE5F5B, #BD362F); }
+.alert-block                    { background: linear-gradient(to bottom, #f18104, #a73a07); color: #000000; margin: 20px auto; text-align: center; text-shadow: none; width: 300px; }
+.alert-block p                  { margin-top: 10px; }
+.alert-block h4                 { color: #bdb1b1; }
+
+/*Thumbnails style*/
+.thumbnails                     { display: inline-block; margin-right: 8px; }
+.thumbnail>p                    { color: #bdb1b1; margin-left:75px; }
+
+/*Footer style*/
+footer                          { background: url("img/tracks2.png") repeat-x; color: #bdb1b1; height: 80px; text-align: center; width: 100%; }
+footer p                        { padding-top: 50px;  }
+footer a                        { border-left: 1px solid #b1b1b1; border-right: 1px solid #b1b1b1; color: #ffffff; padding: 0 10px; }
+footer a:hover                  { color: #ffffff; text-decoration: underline; }
