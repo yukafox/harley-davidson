@@ -4,6 +4,16 @@ h3                              { color: #f18104; text-align: center; }
 body                            { background: url("http://content.wallpapers-room.com/resolutions/1280x800/W/Wallpapers-room_com___Weathered_Leather_by_Stratification_1280x800.png") repeat fixed; font-family: Courier, serif; }
 
 /*Navigation style*/
+.dropdown-menu                  { background: linear-gradient(to bottom, #191817, #444444); min-width: 120px; }
+.dropdown-menu > li > a         { color: #bdb1b1; }
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a     { background: linear-gradient(to bottom, #f18104, #a73a07); color: #101112; }
+nav                             { border-bottom: 1px solid #b1b1b1; margin: 0 auto; padding-bottom: 5px; text-align: center; width: 100%; }
+nav a                           { color: #b1b1b1; }
+nav a:hover                     { color: #b1b1b1; text-decoration: none; }
+nav div                         { border-left: 1px solid #b1b1b1; border-right: 1px solid #b1b1b1; display: inline-block; padding: 3px; }
 
 /*Header style*/
 header                          { height: 201px; margin-top: 20px; width: 100%; }
