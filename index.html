@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="bootstrap/js/jquery-2.0.0.min.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -115,6 +114,16 @@
         <a href="http://www.harley-davidson.com">Motor Harley-Davidson Cycles</a>
     </header>
 
+    <div class="alert alert-block info">
+        <h4>Harley-Davidson Truck Tour 2013!</h4>
+        <h5>22 Motorcycles. 16 Counties. 30 Events.</h5>
+        <img src="img/bb-2013-demo.jpg"/>
+        <p>If You have always dreamed to ride a new Harley-Davidson, there you have a GREAT opportunity to make your dream come true.
+        If you already have one and thinking of getting another one, there is no better moment.
+        Our Specialists will give you a Recommendations and answer on any questions to make your choice easier.</p>
+        <p><strong>15-16 June in Kyiv!</strong> Call now to reserve a test-ride: <strong>+38 044 496-84-88</strong>
+        Quantity of participants is restricted don't Wait until tomorrow!</p>
+    </div>
 
     <div id="myCarousel" class="carousel slide">
         <ol class="carousel-indicators">
@@ -122,12 +131,16 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="active item"><img src="http://www.yoowallpapers.com/images/grey-harley-wallpaper-for-1024x768-3-596.jpg"/></div>
-            <div class="item"><img src="http://www.bikewalls.com/pictures/Harley-Davidson_VRSCDX_V-Rod_2008_06_1024x768.jpg"/></div>
-            <div class="item"><img src="http://wpapers.ru/wallpapers/moto/6127/1024x768_Harley-Davidson-V-Rod-Muscle.jpg"/></div>
-            <div class="item"><img src="http://upload.wikimedia.org/wikipedia/en/thumb/1/13/Harley_5-06.jpg/1024px-Harley_5-06.jpg"/></div>
+            <div class="active item"><img src="http://www.harley-davidson.com/en_US/Media/images/homepage/billboards/bb-wo-garage-party-attend.jpg"/></div>
+            <div class="item"><img src="http://www.harley-davidson.com/en_US/Media/images/homepage/billboards/bb-110-entertainment.jpg"/></div>
+            <div class="item"><img src="http://www.harley-davidson.com/en_US/Media/images/homepage/billboards/bb-red-breakout.jpg"/></div>
+            <div class="item"><img src="http://www.harley-davidson.com/en_US/Media/images/homepage/billboards/bb-ufc-throw-down.jpg"/></div>
+            <div class="item"><img src="http://www.harley-davidson.com/en_US/Media/images/homepage/billboards/bb-2013-motorcycles-fb.jpg"/></div>
+            <div class="item"><img src="http://www.harley-davidson.com/en_US/Media/images/homepage/billboards/bb-journey-of-the-ie.jpg"/></div>
         </div>
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -139,6 +152,15 @@
         Don't have a motorcycle yet? <br/> Got to get one immediately!
         <p>
             <a class="btn btn-danger" href="http://www.harley-davidson.com/en_US/Content/Pages/dealer-locator/dealer-locator.html?locale=en_US&bmLocale=en_US">Get a Motorcycle!</a>
+            <a class="btn" data-content="Think twice!!!" title="Are you sure?" data-toggle="popover" href="#" data-original-title="A Title" data-placement="right" data-trigger="click">Ignore</a>
+            <script type='text/javascript'>
+                // popover demo
+                $("a[data-toggle=popover]")
+                        .popover()
+                        .click(function(e) {
+                            e.preventDefault()
+                        })
+            </script>
         </p>
     </div>
 
