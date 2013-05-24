@@ -27,7 +27,7 @@ header > a                      { background: url("img/Harley-Davidson-Logo2.png
 #myCarousel                     { border: 1px solid #bdb1b1; border-radius: 6px; margin-top: 20px; }
 
 /*Alert style*/
-.info                           { width: 600px !important; }
+.info                           { width: 700px !important; }
 .info img                       { margin: 0 auto; }
 .info strong                    { color: #bdb1b1; }
 .popover-title                  { color: #a73a07;  }
@@ -35,6 +35,7 @@ header > a                      { background: url("img/Harley-Davidson-Logo2.png
                                     padding: 10px; text-align: center; text-shadow: none; width: 300px; }
 .alert-block p                  { margin-top: 10px; }
 .alert-block h4                 { color: #fdfdcb; }
+.alert .close                   { right: -5px; top: -10px; }
 
 /*Thumbnails style*/
 .thumbnails                     { display: inline-block; margin-right: 8px; }
